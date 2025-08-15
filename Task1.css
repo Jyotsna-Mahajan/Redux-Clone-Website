@@ -1,0 +1,268 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.topbanner{
+  height: 20px;
+  width: 100%;
+  background-image: url(./images/image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    flex-wrap: nowrap;
+    position: sticky;         
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 35px;
+}
+
+.logo span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span:hover{
+   color: #764ABC;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin-left: 350px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links i{
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a:hover {
+  color: #764ABC;
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.box i{
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Center */
+.center {
+  background-color: #764ABC;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.center h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.center p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.center button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.center button:hover{
+  background-color: rgb(240, 225, 225);
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.feature {
+  max-width: 250px;
+  margin: 20px;
+}
+
+.feature h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.feature i {
+  font-size: 70px;    
+  margin-bottom: 15px;  /* Spacing below icon */
+  display: block;
+}
+
+.reduxbanner{
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.reduxbanner img{
+  max-width: 50%;
+  height: auto;
+}
+
+.libraries {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.libraries h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.librarylinks {
+  display: flex;
+  justify-content: center;
+  gap: 80px; /* More space between cards */
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto; /* Center the group of cards */
+}
+
+.library {
+  max-width: 300px;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.library a {
+  text-decoration: none;
+  color: #764ABC;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.library a i {
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.library p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.library a:hover{
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #f7f7f7;
+  padding: 60px 20px; 
+  text-align: center;
+}
+
+.footer-column {
+  display: flex;
+  justify-content: space-between;  
+  gap: 100px;                      
+  flex-wrap: wrap;
+  max-width: 1200px;               
+  margin: 0 auto 40px auto;       
+}
+
+.footers {
+  flex: 1 1 200px;                 
+  text-align: left;               
+}
+
+.footers h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footers ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footers li {
+  margin-bottom: 12px;            
+}
+
+.footers a {
+  text-decoration: none;
+  color: grey;
+  font-size: 15px;
+}
+
+.footers a i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.footers a:hover {
+  text-decoration: underline;
+  color: #764ABC;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  
+}
+
+.footer-bottom {
+  font-size: 16px;
+  color: black;
+  margin-top: 20px;
+}
+
+
+
+
+
